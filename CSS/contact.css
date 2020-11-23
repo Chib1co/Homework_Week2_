@@ -1,6 +1,13 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
+    
+}
+
+.backgroung {
+    background-image: url(../image/sean-o-KMn4VEeEPR8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
     
 header {
@@ -33,29 +40,43 @@ h1 {
 
 }
 
+
+
 .oceanimage {
     float: right;
     margin-top: 20px;
     margin-right: 30px;
-
+}
  
-  @media screen and (max-width: 480px) {
+
+  @media (max-width: 480px) {
     body {
       background-color: lightgreen;
     }
-    
-    .displaynone {
-       display:none;
+    img.responsive {
+        display: none;
     }
-
+  
+   
   }
   
   @media (max-width: 767px) {
     body {
       background-color: lavender;
+      background-image: url(../image/shifaaz-shamoon-okVXy9tG3KY-unsplash.jpg);
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    img {
+        display: none;
     }
 
     .container {
         width: 100%;
+    }
+
+    img.responsive {
+        display: none;
     }
   }
