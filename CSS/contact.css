@@ -51,18 +51,18 @@ h1 {
 
   @media (max-width: 480px) {
     body {
-      background-color: lightgreen;
-    }
-    img.responsive {
-        display: none;
-    }
+        background-image: url(../image/shifaaz-shamoon-okVXy9tG3KY-unsplash.jpg);
+        background-size: cover;
+        color: #ffffff;
+      }
+  
+  
   
    
   }
   
   @media (max-width: 767px) {
     body {
-      background-color: lavender;
       background-image: url(../image/shifaaz-shamoon-okVXy9tG3KY-unsplash.jpg);
       background-size: cover;
       color: #ffffff;
@@ -76,7 +76,4 @@ h1 {
         width: 100%;
     }
 
-    img.responsive {
-        display: none;
-    }
   }
