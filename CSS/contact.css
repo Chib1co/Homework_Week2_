@@ -20,6 +20,11 @@ h1 {
     font-size: 28px;
 }
 
+button {
+    margin-bottom: 20px;
+    background-color:#99ced3 ;
+}
+
 /*navigation bar */
 .navbar {
     background-color: #99ced3;
