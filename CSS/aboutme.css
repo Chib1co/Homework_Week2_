@@ -32,14 +32,15 @@ h4 {
 .img-thumbnail {
     float: left;
     margin-left:20px;
-    width: fit-content;
+    margin-right: 20px;
+    width: 30%;
 }
 
-/*biography text */
+/*biography text
 .bio {
     float:right;
     
-}
+}*/
 
 /*navigation bar*/
 .navbar {
@@ -58,7 +59,7 @@ footer {
 }
  
 
- /*mefia ruqries */ 
+ /*mefia ruqries *
 @media screen and (max-width: 480px) {
 
     body {
@@ -84,6 +85,6 @@ footer {
 
         body {
             font-size: 18px;
-        }
+        } */
         
         }
