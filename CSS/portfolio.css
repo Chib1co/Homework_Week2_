@@ -1,3 +1,4 @@
+/*set font style and font size */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -12,12 +13,22 @@ header {
    
 }
 
+/*navigation bar */
 .navbar {
     background-color: #99ced3;
     color: #ffffff;
  
   }
 
+/*sticky footer */
+footer {
+    background-color: #99ced3;
+    color: #ffffff;
+    margin: 30px;
+ 
+}
+
+/*image garally */
 img {
     padding: 20px;
 }
@@ -32,18 +43,3 @@ img {
    text-align: center;
   }
 
-  @media (max-width: 480px) {
-   
-  
-  
-   
-  }
-  
-  @media (max-width: 767px) {
-
-
-
-
-
-    
-  }
