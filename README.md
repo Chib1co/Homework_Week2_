@@ -30,9 +30,9 @@ In this assignment, I was required to do few things below lists,
 ![StickyFooter](screenshot/footer.png)
 
 * About me page 
- * The image photo become smaller for smaller screen
-![Aboutme_Largescreen](screenshot/Aboutme_Large.png)
-![Aboutme_Smallscreen](screenshot/Aboutme_SmMd.png)
+ * The image and paragraph is working as a sub-colomns
+![Aboutme_Largescreen](screenshot/Aboutme_lg.png)
+![Aboutme_Smallscreen](screenshot/Aboutme_sm.png)
 
 * Portfolio page 
  * showing 4 photos for large screen, 2 for midium, then 1 for small screen
