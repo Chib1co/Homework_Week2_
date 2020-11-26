@@ -59,32 +59,22 @@ footer {
 }
  
 
- /*mefia ruqries *
+ /*mefia ruqries */
 @media screen and (max-width: 480px) {
 
     body {
-    
-    float: none;
-    
-    }
-    
-    .img-thumbnail {
-        width: 35%
-   
-       }
+        font-size: 18px ;
     
     }
+}
 
     @media screen and (max-width: 767px) {
 
     
-        .img-thumbnail {
-         width: 50%
-    
-        }
+        
 
         body {
             font-size: 18px;
-        } */
+        } 
         
         }
