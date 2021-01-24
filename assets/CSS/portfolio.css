@@ -66,6 +66,13 @@ img {
    text-align: center;
   }
 
+.w-100{
+    margin-top: 20px;
+}
+p{
+    font-size: 16px;
+}
+
   /*media ruqries */
 @media screen and (max-width: 767px) {
 
