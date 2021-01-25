@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
     crossorigin="anonymous">
 <!--link stylesheet-->
-<link rel="stylesheet" href="CSS/portfolio.css">
+<link rel="stylesheet" href="assets/CSS/portfolio.css">
     <title>Portfolio</title>
 </head>
 
@@ -16,7 +16,7 @@
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light"> 
-            <a class="navbar-text" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 36px; color: #ffffff;">Tomomi Inoue</a>
+            <a class="navbar-text" style="font-family: Georgia, 'Times New Roman', Times, serif;">Tomomi Inoue</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,61 +38,61 @@
 
     </header>
 <!--image galleryy-->
-<div class="contianer">
+<div class="container">
     <div class="row" id="gallery-row1" data-toggle="modal" data-target="#exampleModal">
       <!--media quary numbers of photos showing depend on different screen-->
-      <div class="col-12 col-sm-6 col-lg-3">
-          <img class="w-100" src="image/sunset.jpg" alt="sunset" data-target="#carouselExample" data-slide-to="0">
+      <div class="col-12 col-sm-6 col-lg-4">
+          <img class="w-100" src="assets/repo-screenshot/codequiz1.png" alt="code-quiz web app" data-target="#carouselExample" data-slide-to="0">
           <!--text to explain the images--> 
           <div class="text-block">
-              <h4>Nature</h4>
-            <p>beautiful sunrise</p>
+              <h4>Code quiz web application</h4>
+            <p>first web application used Javascript. You answer the quiz and save the score in your local storage</p>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <img class="w-100" src="image/IMG_2184.jpg" data-target="#carouselExample" data-slide-to="0">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <img class="w-100" src="assets/repo-screenshot/generatepassword3.png" alt="password-generator" data-target="#carouselExample" data-slide-to="0">
            <!--text to explain the images--> 
            <div class="text-block">
-            <h4>Nature</h4>
-          <p>beautiful sunrise</p>
+            <h4>Password Generater</h4>
+          <p>Generate password in betweet 8-128 charactors.User can choice to use lower case, uppercase, numbers, and symbols</p>
         </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <img class="w-100" src="image/IMG_2714.jpg" data-target="#carouselExample" data-slide-to="0">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <img class="w-100" src="assets/repo-screenshot/weather-repo.png" alt="weather forecast app" data-target="#carouselExample" data-slide-to="0">
            <!--text to explain the images--> 
            <div class="text-block">
-            <h4>Nature</h4>
-          <p>beautiful sunrise</p>
+            <h4>Weather forecast web app</h4>
+          <p>User search the city to check the current weather, also next 5 days weather forecast. local storage stores the search history of the cities up to 5 cities</p>
         </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <!-- <div class="col-12 col-sm-6 col-lg-3">
           <img class="w-100" src="image/IMG_2734.jpg" data-target="#carouselExample" data-slide-to="0">
-           <!--text to explain the images--> 
+           
            <div class="text-block">
             <h4>Nature</h4>
           <p>beautiful sunrise</p>
+        </div> -->
         </div>
-        </div>
-      </div>
+      
 
       <div class="row" id="gallery-row2" data-toggle="modal" data-target="#exampleModal">
-        <div class="col-12 col-sm-6 col-lg-3">
-          <img class="w-100" src="image/sunset.jpg" alt="sunset" data-target="#carouselExample" data-slide-to="0">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <img class="w-100" src="assets/repo-screenshot/project1.png" alt="Group-project1" data-target="#carouselExample" data-slide-to="0">
            <!--text to explain the images--> 
            <div class="text-block">
-            <h4>Sunset</h4>
-          <p>beautiful sunset</p>
+            <h4>Restaurant search and review app</h4>
+          <p>First group project. Used zomato API and google map API to search restaurants and add personal reviews and photos</p>
         </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <img class="w-100" src="image/IMG_2184.jpg" data-target="#carouselExample" data-slide-to="0">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <img class="w-100" src="assets/repo-screenshot/github-page.png" alt="my github page"data-target="#carouselExample" data-slide-to="0">
            <!--text to explain the images--> 
            <div class="text-block">
-            <h4>Sunrise</h4>
-          <p>sunrise at my fav surf spot</p>
+            <h4>My github page</h4>
+          <p>Github profile</p>
         </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4">
           <img class="w-100" src="image/IMG_2714.jpg" data-target="#carouselExample" data-slide-to="0">
            <!--text to explain the images--> 
            <div class="text-block">
@@ -100,15 +100,16 @@
           <p>Beautiful waves</p>
         </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <!-- <div class="col-12 col-sm-6 col-lg-3">
           <img class="w-100" src="image/IMG_2734.jpg" data-target="#carouselExample" data-slide-to="0">
-          <!--text to explain the images--> 
+          
           <div class="text-block">
             <h4>A tree</h4>
           <p>Bush walk is fun</p>
-        </div>
+        </div> -->
         </div>
       </div>
+    </div><!--close container-->
 
 </body>
 
