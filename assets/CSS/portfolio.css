@@ -32,6 +32,7 @@ header {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none !important;
+    max-width:1280px;
  
   }
 .navbar-text{
@@ -48,6 +49,7 @@ footer {
     font-weight: 400;
     font-size: 30px;
     text-align: right;
+    max-width:1280px;
  
 }
 
@@ -94,6 +96,10 @@ p{
     h4 {
         font-size: 16px;
     }
+    footer{
+        text-align: center;
+        font-size: 24px;
+      }
 }
 
   
