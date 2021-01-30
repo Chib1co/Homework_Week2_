@@ -16,10 +16,11 @@ header {
    
 h1 {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-bottom: 15px;
     font-size: 28px;
 }
+
 
 
 .btn-info {
@@ -152,7 +153,13 @@ footer {
     }
     .navbar-text{
             font-size: 30px;
+            color: hotpink;
         }
+    #menu{
+            background-color:#f9d2e6;
+            padding-right: 20px;
+           
+          }
       
    
   

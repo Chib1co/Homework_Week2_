@@ -39,6 +39,9 @@ header {
     color: black;
     font-size: 40px;
 }
+/* #menu{
+    font-size: 28px;
+} */
 
 /*sticky footer */
 footer {
@@ -75,6 +78,28 @@ p{
     font-size: 16px;
 }
 
+
+.link{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:  #FFEEEE;
+}
+#github-link{
+    color: #FFEEEE;
+    margin-left: 10px;
+    font-size: 16px;
+  
+}
+#deployed-link{
+    color: #FFEEEE;
+    margin-left: 10px;
+    font-size: 18px;
+   
+}
+
   /*media ruqries */
 @media screen and (max-width: 767px) {
 
@@ -89,12 +114,12 @@ p{
 @media screen and (max-width: 480px) {
 
     body {
-        font-size: 14px ;
+        font-size: 18px ;
     
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 20px;
     }
     footer{
         text-align: center;
@@ -102,6 +127,11 @@ p{
       }
       .navbar-text{
         font-size: 36px;
+      }
+      #menu{
+        background-color:#f9d2e6;
+        padding-right: 20px;
+       
       }
 }
 
