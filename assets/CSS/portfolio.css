@@ -39,6 +39,10 @@ header {
     color: black;
     font-size: 40px;
 }
+#menu a.nav-link:hover{
+    color: rgb(235, 118, 177);
+  
+  }
 /* #menu{
     font-size: 28px;
 } */
