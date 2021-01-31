@@ -47,6 +47,7 @@ h1 {
     -ms-user-select: none;
     user-select: none !important;
     max-width: 1280px;
+    margin: auto;
  
   }
 
@@ -68,6 +69,7 @@ footer {
     font-size: 30px;
     text-align: right;
     max-width:1280px;
+    margin: auto;
    
 }
 /* 
