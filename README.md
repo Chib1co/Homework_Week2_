@@ -1,24 +1,15 @@
-# Homework_Week2_
-This is my second week homework from BCS.
-I have made biography page.
+# Homework_Week2_Updated
+Updating my portfolio page I made from week2
 
 ## Requirement
 
-In this assignment, I was required to do few things below lists,
+* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+* Submit an updated resume
 
-   * A navbar
-
-   * A responsive layout
-
-   * Responsive images
-
-* The Bootstrap portfolio should minimize the use of media queries.
-
-* also, there was bonus to use Sticky footer and sub-row and sub-columns
+* Submit an updated LinkedIn profile
 
 ## My work
 
@@ -47,8 +38,33 @@ In this assignment, I was required to do few things below lists,
  ![Contact_Largescreen](screenshot/Contact_lg.png)
  ![Contact_Smallscreen](screenshot/Contact_sm.png)
 
+## Key upddate
+ * Full color and animation changed adding page links
+ ![About me page](screenshot/update-aboutme-page.png)
+ ![page links](screenshot/page-links.png)
+
+  * Update resume
+ ![Resume](screenshot/update-resume.png)
+
+  * Update rgithub page
+ ![Github](screenshot/update-githubpage.png)
+
+  * Update rgithub page
+ ![linkedin](screenshot/update-linkedin.png)
+
+ * Update rgithub page
+ ![linkedin](screenshot/update-linkedin.png)
+
+ * Mobile responsive
+ ![mobile menu bar](screenshot/update-mobile-responsive.png)
 
 ## What I learned from this homework
 * Using bootstrap to make all the website page easily good looking in same style of consept
 * How important to make relative layout
 * Front end work is so fun!
+
+## What I learned from this update
+* Very surprised me conpare to first time I made this page, all the html, css code writing became more natural to me.
+It is very fun to work on front-end, easy to see the result, easy to see the problem.
+Also made me really excited to see own portfolio page that I am on the way to become web developer..
+However, I am looking forward to work on more back-end from next week.
