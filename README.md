@@ -11,7 +11,7 @@ Updating my portfolio page I made from week2
 
 * Submit an updated LinkedIn profile
 
-## My work
+## My work_Original
 
 * All three page
  * I put Navigation bar with links in each pages
@@ -46,14 +46,11 @@ Updating my portfolio page I made from week2
   * Update resume
  ![Resume](screenshot/update-resume.png)
 
-  * Update rgithub page
+  * Update github page
  ![Github](screenshot/update-githubpage.png)
 
   * Update rgithub page
- ![linkedin](screenshot/update-linkedin.png)
-
- * Update rgithub page
- ![linkedin](screenshot/update-linkedin.png)
+ ![linkedin](screenshot/update-linkedinpage.png)
 
  * Mobile responsive
  ![mobile menu bar](screenshot/update-mobile-responsive.png)
