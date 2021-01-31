@@ -173,6 +173,9 @@ footer {
     margin-left:20px;
     margin-right: 20px;
 }
+#subcol-links i.link:hover{
+  color: rgb(235, 118, 177);
+}
 a{
     color: #FFEEEE;
 }
