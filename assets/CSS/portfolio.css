@@ -3,7 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif; /*set font*/
     font-size: 22px; /*set font size */
     background-color:#030321;
-    color: #FFEEEE;
+    /* color: #FFEEEE; */
     
 }
 
@@ -63,8 +63,28 @@ footer {
 }
 
 /*image garally */
+#gallery-row1, #gallery-row2, #gallery-row3{
+    margin-top: 20px;
+    margin-right: 10px auto;
+    margin-left: 10px auto;
+}
 img {
-    padding: 20px;
+    /* padding: 20px; */
+    width: 100vw;
+    height: 50vh;
+
+}
+#portfolios {
+    margin: 0 auto;
+}
+
+.btn-link{
+    border: #111 2px solid;
+    /* padding: 20px; */
+}
+
+.repo-title{
+    text-align: center;
 }
 
 
