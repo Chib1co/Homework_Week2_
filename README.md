@@ -1,9 +1,10 @@
 # Homework_Week2_Updated
 Updating my portfolio page I made from week2
+**update 29th March
 
 ## Requirement
 
-* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Submit an updated portfolio featuring Project 1,2 and two exemplary homework assignments.
 
 * Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
@@ -38,7 +39,7 @@ Updating my portfolio page I made from week2
  ![Contact_Largescreen](screenshot/Contact_lg.png)
  ![Contact_Smallscreen](screenshot/Contact_sm.png)
 
-## Key upddate
+## Key upddate (Feb 2021)
  * Full color and animation changed adding page links
  ![About me page](screenshot/update-aboutme-page.png)
  ![page links](screenshot/page-links.png)
@@ -54,6 +55,18 @@ Updating my portfolio page I made from week2
 
  * Mobile responsive
  ![mobile menu bar](screenshot/update-mobile-responsive.png)
+
+## Second upddate (March 2021)
+
+ * All the page theme updated
+ * Home page has cover photo
+ ![About me page](screenshot/update2-aboutme.png)
+ About me page has got cover photo to tell my life style. Who I am. Also has ocean bubble aminamation on the covoer photo
+ ![Portfolio page](screenshot/update2-portfolio.png)
+ Portfolio page now has card from bootstrap
+
+ ![Contact page](screenshot/update2-contactme.png)
+ Contact page has background image instead of side photo too. 
 
 ## What I learned from this homework
 * Using bootstrap to make all the website page easily good looking in same style of consept
