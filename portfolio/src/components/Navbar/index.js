@@ -1,33 +1,48 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, {useRef, useEffect, useState} from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
 
-  const navBar = document.querySelector('.navbar');
+  // const navBar = document.querySelector('.navbar');
 
-  // window.addEventListener('scroll', function (event) {
-  //   // when we scroll, turn nav bar bg color to white
-
-  //   const scrolledY = window.pageYOffset;
-  //   // const [scrolledY, setscrolledY] = useState(0)
-
-  //   if (scrolledY > 0) {
-  //     navBar.classList.add('bg-white');
-  //     navBar.classList.remove('bg-transparent');
+  const navBar = useRef(null);
 
 
-  //   } else {
-  //     navBar.classList.remove('bg-white');
-  //     navBar.classList.add('bg-transparent');
-  //   }
+  useEffect(() => {
 
+    window.addEventListener('scroll', function (event) {
+      // when we scroll, turn nav bar bg color to white
+  
+      const scrolledY = window.pageYOffset;
+      // const [scrolledY, setscrolledY] = useState(0)
+  
+      if (scrolledY > 0) {
+        navBar.current.classList.add('bg-white');
+        navBar.current.classList.remove('bg-transparent');
+  
+  
+      } else {
+        navBar.current.classList.remove('bg-white');
+        navBar.current.classList.add('bg-transparent');
+      }
+  
+    })
+  }, []);
 
+  const location = useLocation();
 
+  const includePositionFixed = location.pathname === '/' ? 'position-fixed': '';
+
+  // const [includePositionFixed, setIncludePositionFixed] = useState("")
+  // useEffect(() => {
+
+  //   setIncludePositionFixed(window.location.pathname === '/' ? 'position-fixed' : '');
   // })
 
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav ref={navBar}  className={"navbar " + includePositionFixed + " bg-transparent navbar-expand-lg navbar-light"}>
       <div className="navbar-text">Tomomi Inoue</div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
