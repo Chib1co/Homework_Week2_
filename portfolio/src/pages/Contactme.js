@@ -3,12 +3,12 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function Contactme() {
+class Contactme extends React.Component {
+    render() {
     return (
         // <!--contact form bootstrap-->
         <div className="display bg-hero">
             <Container>
-
                 <Row>
                     <h1>Contact me</h1>
                 </Row>
@@ -40,7 +40,7 @@ function Contactme() {
                 </div>
 
 
- );
+ )};
 }
 
 

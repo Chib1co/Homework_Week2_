@@ -3,8 +3,10 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import HeaderHero from "../components/HeaderHero";
 
-function Aboutme() {
+class Aboutme extends React.Component {
+    render() {
     return (
         <div>
             <div className="ocean">
@@ -24,6 +26,7 @@ function Aboutme() {
 
 
             <Row className="header-img">
+                <HeaderHero backgroundImage="../../public/images/surf-me.JPG" />
                 <div className="offset-1 col-9 " id="home"></div>
                 <h3 className="fade title">I am Web development student at BCS</h3>
             </Row>
@@ -32,7 +35,7 @@ function Aboutme() {
                     <Col size="col-lg-6" className="fade" id="photo-fadein">
                         <Row id="subrow-image">
                             <Col size="col-12" id="subcol-image">
-                                <img src="assets/image/portlait4.jpg" alt="this is me" class="mx-auto img-thumbnail float-left" id="myphoto"></img>
+                                <img src="../../public/images/portlait4.jpg" alt="this is me" class="mx-auto img-thumbnail float-left" id="myphoto"></img>
                             </Col>
                         </Row>
                         <Row size="mx-auto ml-lg-0" id="links">
@@ -69,7 +72,7 @@ function Aboutme() {
             </Container>
         </div>
 
-    )
+    )}
 };
 
 export default Aboutme;

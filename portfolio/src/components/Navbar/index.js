@@ -6,25 +6,25 @@ function Navbar() {
 
   const navBar = document.querySelector('.navbar');
 
-  window.addEventListener('scroll', function (event) {
-    // when we scroll, turn nav bar bg color to white
+  // window.addEventListener('scroll', function (event) {
+  //   // when we scroll, turn nav bar bg color to white
 
-    const scrolledY = window.pageYOffset;
-    // const [scrolledY, setscrolledY] = useState(0)
+  //   const scrolledY = window.pageYOffset;
+  //   // const [scrolledY, setscrolledY] = useState(0)
 
-    if (scrolledY > 0) {
-      navBar.classList.add('bg-white');
-      navBar.classList.remove('bg-transparent');
-
-
-    } else {
-      navBar.classList.remove('bg-white');
-      navBar.classList.add('bg-transparent');
-    }
+  //   if (scrolledY > 0) {
+  //     navBar.classList.add('bg-white');
+  //     navBar.classList.remove('bg-transparent');
 
 
+  //   } else {
+  //     navBar.classList.remove('bg-white');
+  //     navBar.classList.add('bg-transparent');
+  //   }
 
-  })
+
+
+  // })
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
