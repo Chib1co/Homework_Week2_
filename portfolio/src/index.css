@@ -1,4 +1,4 @@
-body {
+body, html, code {
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif; /*set font*/
   font-size: 22px; /*set font size */
@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
