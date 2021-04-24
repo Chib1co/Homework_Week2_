@@ -1,13 +1,11 @@
 /*image garally */
-#gallery-row1, #gallery-row2, #gallery-row3{
+.card{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 10px auto;
     margin-left: 10px auto;
 }
-#gallery-row3{
-    margin-bottom: 20px auto;
-}
+
 img {
     /* padding: 20px; */
     width: 100vw;

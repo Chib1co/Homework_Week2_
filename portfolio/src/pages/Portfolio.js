@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
-import Container from '../components/Container'
-import Row from '../components/Row'
-import Col from '../components/Col'
+// import Container from '../components/Container'
+// import Row from '../components/Row'
+// import Col from '../components/Col'
 import Card from '../components/Card'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col'
 
 export default function Portfolio() {
 
@@ -72,7 +75,7 @@ export default function Portfolio() {
                 <Row>
                     {projects.map((project) => {
                         return (
-                            <Col key={project.title} sm={12} md={12} lg={6}>
+                            <Col key={project.title} sm="12" md="12" lg="6">
                                 <Card
                                  {...project}
                                 />
