@@ -1,7 +1,7 @@
 import React from "react";
 
-function Row(props) {
-  return <div className="row">{props.children}</div>;
+function Col(props) {
+  return <div className="col">{props.children}</div>;
 }
 
-export default Row;
+export default Col;
