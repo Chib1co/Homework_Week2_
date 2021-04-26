@@ -34,13 +34,6 @@ function Navbar() {
 
   const includePositionFixed = location.pathname === '/' ? 'position-fixed': '';
 
-  // const [includePositionFixed, setIncludePositionFixed] = useState("")
-  // useEffect(() => {
-
-  //   setIncludePositionFixed(window.location.pathname === '/' ? 'position-fixed' : '');
-  // })
-
-
   return (
     <nav ref={navBar}  className={"navbar " + includePositionFixed + " bg-transparent navbar-expand-lg navbar-light"}>
       <div className="navbar-text">Tomomi Inoue</div>

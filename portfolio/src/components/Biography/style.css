@@ -1,5 +1,7 @@
 .first-row{
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   h3 {
       padding: 20px;
@@ -40,6 +42,7 @@
     width: 70%;
     margin-left:20px;
     margin-right: 20px;
+    color: #111;
 }
 #subcol-links i.link:hover{
   /* color: rgb(235, 118, 177); */
@@ -53,6 +56,10 @@
   margin: 0 auto;
   padding: 0;
   width: 100vw;
+}
+.link{
+  color:#111;
+  font-size: 18px;
 }
 
 .fade{

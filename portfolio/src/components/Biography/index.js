@@ -4,10 +4,15 @@ import"./style.css";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 
+const rowStyle = {
+    marginLeft:'30px',
+    marginRight:'30px'
+}
+
 export default function Biography(props) {
     return (
 
-<Row className="first-row">
+<Row className="first-row" style={rowStyle}>
      <Col lg="6" className="fade" id="photo-fadein">
          <Row id="subrow-image">
              <Col size="col-12" id="subcol-image">

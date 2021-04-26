@@ -15,7 +15,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none !important;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: auto;
  
   }
@@ -32,3 +32,27 @@
     border-radius: 3px;
    */
   }
+
+
+@media (max-width: 767px) {
+  #menu{
+      background-color:#bbe6f7;
+      padding-right: 20px;
+     
+      }
+
+
+}
+
+@media (max-width: 480px) {
+  .navbar-text{
+      font-size: 30px;
+      /* color: hotpink; */
+  }
+#menu{
+      background-color:#bbe6f7;
+      padding-right: 20px;
+     
+      }
+
+}

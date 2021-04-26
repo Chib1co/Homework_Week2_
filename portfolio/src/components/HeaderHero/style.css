@@ -8,11 +8,20 @@
     /* margin-top: 20px; */
     margin-left: 0;
     margin-right: 0;
+    flex-wrap: wrap;
+    display: flex;
   }
 
   .title{
-    margin-top: 20px;
+    margin-top: 40px;
     display: block;
     text-align: center;
+    color: #FFF;
   
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }

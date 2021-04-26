@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 // import Row from '../components/Row'
 // import Col from '../components/Col'
 import Card from '../components/Card'
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 
@@ -69,10 +69,15 @@ export default function Portfolio() {
 
     ])
 
+    const rowStyle = {
+        marginLeft:'20px',
+        marginRight:'20px'
+    }
+
     return (
         <div>
-            <Container>
-                <Row>
+            <Container fluid>
+                <Row style={rowStyle}>
                     {projects.map((project) => {
                         return (
                             <Col key={project.title} sm="12" md="12" lg="6">
