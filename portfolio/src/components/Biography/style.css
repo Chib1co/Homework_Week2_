@@ -44,6 +44,9 @@
     margin-right: 20px;
     color: #111;
 }
+.linkhref{
+  color:#111;
+}
 #subcol-links i.link:hover{
   /* color: rgb(235, 118, 177); */
   background-color: #b3b6b8;
@@ -70,6 +73,11 @@
 }
 #bio-fadein{
   animation-delay: 2s;
+}
+#bio-purpose, #about-me {
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+
 }
 
 

@@ -23,9 +23,10 @@ img {
     margin-left: 10px;
 }
 
-.btn-link{
+#githubLink, #app-link{
     border: #111 2px solid;
     margin-bottom: 5px;
+    margin-right: 5px;
     align-items: center;
     color: #111111;
     /* padding: 20px; */

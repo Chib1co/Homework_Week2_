@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { chevron-right } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Card(props) {
@@ -15,8 +15,8 @@ export default function Card(props) {
             <h4 className="repo-title">{props.title}</h4>
             <p>{props.desc}</p>
           <div className="link-btns">
-          <a type="button" className="btn btn-link" href={props.github} target="blank">Github page<FontAwesomeIcon icon={["fas", "chevron-right"]}/></a>
-          <a type="button" className="btn btn-link" href={props.app_link} target="blank">Deployed page<i className="fas fa-chevron-right"></i></a>
+          <a type="button" id="githubLink" className="btn btn-link" href={props.github} target="blank">Github page<FontAwesomeIcon icon={faChevronRight}/></a>
+          <a type="button" id="app-link"className="btn btn-link" href={props.app_link} target="blank">Deployed page<FontAwesomeIcon icon={faChevronRight}/></a>
         </div>
         </div>
       </div>

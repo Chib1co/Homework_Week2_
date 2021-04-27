@@ -1,6 +1,7 @@
 import React, {useRef, useEffect, useState} from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
+import "bootstrap/js/src/collapse.js";
 
 function Navbar() {
 
@@ -61,7 +62,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              Portffolio
+              Portfolio
                    </Link>
           </li>
           <li className="nav-item">
