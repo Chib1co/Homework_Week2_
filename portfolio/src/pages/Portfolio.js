@@ -1,7 +1,4 @@
 import React, {useState} from 'react'
-// import Container from '../components/Container'
-// import Row from '../components/Row'
-// import Col from '../components/Col'
 import Card from '../components/Card'
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
