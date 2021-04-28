@@ -43,6 +43,7 @@
     margin-left:20px;
     margin-right: 20px;
     color: #111;
+    line-height: -2%;
 }
 .linkhref{
   color:#111;
@@ -79,7 +80,9 @@
   margin-left: 0 auto;
 
 }
-
+.bio-paragragh{
+  font-size: 22px;
+}
 
 @keyframes fadeIn{
     0%{
